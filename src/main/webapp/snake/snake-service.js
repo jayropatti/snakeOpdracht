@@ -1,7 +1,10 @@
 export default class SnakeService {
     async getSnake() {
-        //TODO: haal deze data van de server
-        return Promise.resolve({
+
+        return fetch("restservices/snake")
+            .then(response => response.json())
+
+        /*return Promise.resolve({
             apiversion: "1",
             author: "de dapper student",
             color: "#ff0000",
@@ -9,6 +12,8 @@ export default class SnakeService {
             tail: "default",
             version: "0.1"
         });
+
+         */
     }
 
     async updateSnake(updatedSnake) {
