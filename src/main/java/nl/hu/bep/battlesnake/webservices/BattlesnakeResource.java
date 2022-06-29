@@ -9,7 +9,6 @@ import javax.ws.rs.core.Response;
 class MoveRespone{
     public String move;
     public String shout;
-
 }
 
 @Path("/snake")

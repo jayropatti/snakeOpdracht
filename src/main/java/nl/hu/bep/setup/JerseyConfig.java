@@ -9,8 +9,7 @@ import javax.ws.rs.ApplicationPath;
 public class JerseyConfig extends ResourceConfig {
     public JerseyConfig() {
         register(RolesAllowedDynamicFeature.class);
-        // geef aan in welke package gekeken moet worden om site te laten registreren
-        packages("nl.hu.battlesnake.webservices");
+        packages("nl.hu.bep.battlesnake.webservices");
 
     }
 }
