@@ -4,16 +4,16 @@ export default class SnakeService {
         return fetch("restservices/snake")
             .then(response => response.json())
 
-        /*return Promise.resolve({
+        return Promise.resolve({
             apiversion: "1",
-            author: "de dapper student",
+            author: "Jayro Pattimaipau",
             color: "#ff0000",
-            head: "default",
-            tail: "default",
+            head: "replit-mark",
+            tail: "rbc-necktie",
             version: "0.1"
         });
 
-         */
+
     }
 
     async updateSnake(updatedSnake) {
