@@ -32,7 +32,7 @@ public class GameInfo {
         return version;
     }
 
-    private void setApiverion(String apiverion) {
+    public void setApiverion(String apiverion) {
         this.apiverion = apiverion;
     }
 
@@ -40,19 +40,19 @@ public class GameInfo {
         this.author = author;
     }
 
-    private void setColor(String color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
-    private void setHead(String head) {
+    public void setHead(String head) {
         this.head = head;
     }
 
-    private void setTail(String tail) {
+    public void setTail(String tail) {
         this.tail = tail;
     }
 
-    private void setVersion(String version) {
+    public void setVersion(String version) {
         this.version = version;
     }
 }
