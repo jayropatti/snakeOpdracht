@@ -7,7 +7,7 @@ export default class SnakeService {
         return Promise.resolve({
             apiversion: "1",
             author: "Jayro Pattimaipau",
-            color: "#ff0000",
+            color: "#0000FF",
             head: "replit-mark",
             tail: "rbc-necktie",
             version: "0.1"

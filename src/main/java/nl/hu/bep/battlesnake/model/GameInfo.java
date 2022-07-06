@@ -2,10 +2,10 @@ package nl.hu.bep.battlesnake.model;
 
 public class GameInfo {
     public String apiverion = "1";
-    public String author = "MyUsername";
-    public String color = "#888888";
-    public String head = "default";
-    public String tail = "default";
+    public String author = "Jayro Pattimaipau";
+    public String color = "#0000FF";
+    public String head = "replit-mark";
+    public String tail = "rbc-necktie";
     public String version = "0.0.1-beta";
 
     private String getApiverion() {
