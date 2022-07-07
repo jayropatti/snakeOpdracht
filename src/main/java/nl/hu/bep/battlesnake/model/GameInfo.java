@@ -1,7 +1,7 @@
 package nl.hu.bep.battlesnake.model;
 
 public class GameInfo {
-    public String apiverion = "1";
+    public String apiversion = "1";
     public String author = "Jayro Pattimaipau";
     public String color = "#0000FF";
     public String head = "replit-mark";
@@ -9,7 +9,7 @@ public class GameInfo {
     public String version = "0.0.1-beta";
 
     private String getApiverion() {
-        return apiverion;
+        return apiversion;
     }
 
     private String getAuthor() {
@@ -33,7 +33,7 @@ public class GameInfo {
     }
 
     public void setApiverion(String apiverion) {
-        this.apiverion = apiverion;
+        this.apiversion = apiverion;
     }
 
     public void setAuthor(String author) {

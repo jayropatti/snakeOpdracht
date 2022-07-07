@@ -1,20 +1,12 @@
 export default class SnakeService {
     async getSnake() {
+        //haal data v de server
         return fetch("/restservices/snake").then(response => response.json())
-        //
-        // return Promise.resolve({
-        //     apiversion: "1",
-        //     author: "Jayro Pattimaipau",
-        //     color: "#0000FF",
-        //     head: "replit-mark",
-        //     tail: "rbc-necktie",
-        //     version: "0.1"
-        // });
-        // dit was overbodig
     }
 
     async updateSnake(updatedSnake) {
         //TODO: update je slang aan de server-kant met de nieuwe gegevens
+        // -Put request: snakeUpdate met json body v updatesSnake als string
         let fetchOptions = {
             method: "PUT",
             body: JSON.stringify(updatedSnake),

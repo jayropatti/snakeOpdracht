@@ -17,12 +17,12 @@ public class BattlesnakeResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getInfo(){
         GameInfo information = new GameInfo();
-        information.setAuthor(information.author);
+        information.setAuthor(information.author); //verzend Strings v GameInfo (door bv. author, color toe te voegen) aan information als json data
         information.setColor(information.color);
         information.setHead(information.head);
         information.setTail(information.tail);
         information.setVersion(information.version);
-        information.setApiverion(information.apiverion);
+        information.setApiverion(information.apiversion);
         return Response.ok(information).build();
     }
 
